@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Finger</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <link rel="stylesheet" href="fingure.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <p>Score: <span id="score">0</span></p>
+        <h1>Guess Finger Count!!</h1>
+        <p id="countdownTimer">00:30</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section id="result">
+          <img id="resultImg" src="5.png" />
+        </section>
+        <div id="fingers">
+          <button class="btn-finger" data-num="0">
+            <img src="zero.png" />
+          </button>
+          <button class="btn-finger" data-num="1">
+            <img src="1.png" />
+          </button>
+          <button class="btn-finger" data-num="2">
+            <img src="2.png" />
+          </button>
+          <button class="btn-finger" data-num="3">
+            <img src="3.png" />
+          </button>
+          <button class="btn-finger" data-num="4">
+            <img src="4.png" />
+          </button>
+          <button class="btn-finger" data-num="5">
+            <img src="5.png" />
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="finger1.js"></script>
+  </body>
+</html>
